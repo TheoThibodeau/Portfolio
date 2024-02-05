@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(47, 47, 47, 0.87);
-  background-color: rgb(247, 236, 216);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,6 +15,7 @@
 .mainContainer {
   text-align: left;
   padding-left: 100px;
+  background-color: whitesmoke;
 }
 
 .name {
@@ -26,15 +26,36 @@
   color: blue;
 }
 
+.navBar {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+  display: inline-block; /* Ensure they sit next to each other */
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+}
+
+.titleHeader,
+.projects,
+.aboutMe {
+  margin: 0; /* Remove default margins */
+  display: inline-block; /* Ensure they sit next to each other */
+  margin-right: 50px; /* Add space to the right of titleHeader */
+}
+
 /* Arrow & Hover Animation */
 #more-arrows {
-	width: 75px;
-  height: 65px;
+	width: 35px;
+  height: 25px;
   
   &:hover {
     
     polygon {
-      fill: #FFF;
+      fill: #050241;
       transition: all .2s ease-out;
 
       &.arrow-bottom {
@@ -52,7 +73,7 @@
 }
 
 polygon {
-  fill: #FFF;
+  fill: #050241;
   transition: all .2s ease-out;
     
   &.arrow-middle {
@@ -90,7 +111,7 @@ html, body, .hello-parent {
 }
 
 .welcomePageSubTitle {
-
+  color: blue;
 }
 /* H Animation */
 
@@ -372,4 +393,4 @@ html, body, .hello-parent {
   100% {
     stroke-width: 44px;
   }
-};
+}

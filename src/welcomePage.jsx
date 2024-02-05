@@ -47,7 +47,7 @@ const Welcome = () => {
             </g>
             
             </svg>
-            <Link to="/profile">
+            <Link to="/profile" style={{ textDecorationColor: 'blue' }}>
                 <h1 className="welcomePageSubTitle">
                     Welcome to my Portfolio
                 </h1>
