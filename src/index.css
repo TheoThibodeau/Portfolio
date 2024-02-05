@@ -83,10 +83,14 @@ html, body, .hello-parent {
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
+  flex-direction: column;
 }
 
 .hello-word {
-  margin:auto;
+}
+
+.welcomePageSubTitle {
+
 }
 /* H Animation */
 

@@ -1,4 +1,12 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Welcome = () => {
+
+    const handleWelcomeClick = () => {
+
+    }
+
     return(
         <>
             <div class="hello-parent">
@@ -38,11 +46,15 @@ const Welcome = () => {
                 <line x1="325" y1="260" x2="325" y2="260" stroke="#FF5851" class="red-dot" />
             </g>
             
-            
             </svg>
+            <Link to="/profile">
+                <h1 className="welcomePageSubTitle">
+                    Welcome to my Portfolio
+                </h1>
+            </Link>
             </div>
         </>
     );
 };
 
-export default Welcome
+export default Welcome;
