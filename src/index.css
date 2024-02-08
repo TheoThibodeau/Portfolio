@@ -14,7 +14,7 @@
 
 .mainContainer {
   text-align: left;
-  padding-left: 100px;
+  padding-left: 0;
   background-color: whitesmoke;
 }
 
@@ -125,6 +125,37 @@ html, body, .hello-parent {
   margin: 0;
 }
 
+.catalystHolder {
+  display: flex;
+  align-items: center; 
+  margin-top: 10px;
+}
+
+.catalystTitle {
+  margin: 0;
+  margin-right: 10px; 
+  margin-bottom: 50px;
+}
+
+.catalystDescription {
+  margin: 0;
+}
+
+.momentorsHolder {
+  display: flex;
+  align-items: center; 
+  margin-top: 10px;
+}
+
+.momentorsTitle {
+  margin: 0;
+  margin-right: 10px; 
+  margin-bottom: 50px;
+}
+
+.momentorsDescription {
+  margin: 0;
+}
 /* H Animation */
 
 .H-left-stroke {
@@ -850,5 +881,28 @@ html, body, .hello-parent {
   }
   100% {
     stroke-dashoffset: 0px; /* Transition to 0px */
+  }
+}
+
+/* Red Dot Animation */
+
+.red-dot {
+  stroke-width: 44px;
+  stroke-linecap: round;
+  animation: red-dot-grow 8s ease-out forwards;
+}
+
+@keyframes red-dot-grow {
+  0% {
+    stroke-width: 0px;
+  }
+  15% {
+    stroke-width: 0px;
+  }
+  20% {
+    stroke-width: 44px;
+  }
+  100% {
+    stroke-width: 44px;
   }
 }
