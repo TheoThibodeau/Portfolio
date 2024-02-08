@@ -86,7 +86,6 @@ polygon {
 	 
 }
 
-
 /* Welcome Page */
 
 html, body, .hello-parent {
@@ -107,12 +106,25 @@ html, body, .hello-parent {
   flex-direction: column;
 }
 
-.hello-word {
-}
-
 .welcomePageSubTitle {
   color: blue;
 }
+
+.giftfairyHolder {
+  display: flex;
+  align-items: center; 
+}
+
+.giftfairyTitle {
+  margin: 0;
+  margin-right: 10px; 
+  margin-bottom: 50px;
+}
+
+.giftfairyDescription {
+  margin: 0;
+}
+
 /* H Animation */
 
 .H-left-stroke {
@@ -392,5 +404,451 @@ html, body, .hello-parent {
   }
   100% {
     stroke-width: 44px;
+  }
+}
+
+/* Theodore Thibodeau Welcome Page Animation */
+
+/* T Animation */
+.T-vertical-stroke {
+  stroke-dasharray: 100px;
+  stroke-dashoffset: 100px;
+  animation: T-vertical-move 2s ease forwards;
+}
+
+.T-horizontal-stroke {
+  stroke-dasharray: 60px;
+  stroke-dashoffset: 60px;
+  animation: T-horizontal-move 2s ease forwards;
+}
+
+@keyframes T-vertical-move {
+  0% {
+      stroke-dashoffset: 100px;
+  }
+  100% {
+      stroke-dashoffset: 0;
+  }
+}
+
+@keyframes T-horizontal-move {
+  0% {
+      stroke-dashoffset: 60px;
+  }
+  100% {
+      stroke-dashoffset: 0;
+  }
+}
+
+
+.H-left-stroke {
+  stroke-dasharray: 124px;
+  stroke-dashoffset: 124px;
+  animation: H-left-move 20s ease forwards;
+}
+
+.H-mid-stroke {
+  stroke-dasharray: 37px;
+  stroke-dashoffset: 37px;
+  animation: H-mid-move 9s ease forwards;
+}
+
+.H-right-stroke {
+  stroke-dasharray: 124px;
+  stroke-dashoffset: 124px;
+  animation: H-right-move 13s ease forwards;
+}
+
+@keyframes H-left-move {
+  0% {
+    stroke-dashoffset: 124px;
+  }
+  5% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes H-mid-move {
+  0% {
+    stroke-dashoffset: 37px;
+  }
+  5% {
+    stroke-dashoffset: 37px;
+  }
+  10% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes H-right-move {
+  0% {
+    stroke-dashoffset: 124px;
+  }
+  5% {
+    stroke-dashoffset: 124px;
+  }
+  10% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+/* E Animation */
+
+.E-left-stroke {
+  stroke-dasharray: 124px;
+  stroke-dashoffset: 124px;
+  animation: E-left-move 20s ease forwards;
+}
+
+.E-top-stroke {
+  stroke-dasharray: 47px;
+  stroke-dashoffset: 47px;
+  animation: E-top-move 10s ease forwards;
+}
+
+.E-mid-stroke {
+  stroke-dasharray: 42px;
+  stroke-dashoffset: 42px;
+  animation: E-mid-move 10s ease forwards;
+}
+
+.E-bottom-stroke {
+  stroke-dasharray: 47px; /* Adjusted length to 80px */
+  stroke-dashoffset: 40px; /* Adjusted offset accordingly */
+  animation: E-bottom-move 10s ease forwards;
+}
+
+@keyframes E-left-move {
+  0% {
+    stroke-dashoffset: 124px;
+  }
+  2% {
+    stroke-dashoffset: 124px;
+  }
+  6% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes E-top-move {
+  0% {
+    stroke-dashoffset: 47px;
+  }
+  6% {
+    stroke-dashoffset: 47px;
+  }
+  11% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes E-mid-move {
+  0% {
+    stroke-dashoffset: 42px;
+  }
+  8% {
+    stroke-dashoffset: 42px;
+  }
+  13% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes E-bottom-move {
+  0% {
+    stroke-dashoffset: 80px; /* Adjusted offset to match the length */
+  }
+  11% {
+    stroke-dashoffset: 80px;
+  }
+  16% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+/* I Animation */
+
+.I-top-stroke {
+  stroke-dasharray: 80px;
+  stroke-dashoffset: 80px;
+  animation: I-top-move 2s ease forwards;
+}
+
+.I-bottom-stroke {
+  stroke-dasharray: 80px;
+  stroke-dashoffset: 80px;
+  animation: I-bottom-move 2s ease forwards;
+}
+
+.I-vertical-stroke {
+  stroke-dasharray: 100px;
+  stroke-dashoffset: 100px;
+  animation: I-vertical-move 2s ease forwards;
+}
+
+@keyframes I-top-move {
+  0% {
+    stroke-dashoffset: 80px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes I-bottom-move {
+  0% {
+    stroke-dashoffset: 80px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes I-vertical-move {
+  0% {
+    stroke-dashoffset: 100px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+/* B styling */
+/* B Animation */
+
+.B-top-stroke {
+  stroke-dasharray: 30px;
+  stroke-dashoffset: 30px;
+  animation: B-top-move 2s ease forwards;
+}
+
+.B-bottom-stroke {
+  stroke-dasharray: 30px;
+  stroke-dashoffset: 0px;
+  animation: B-bottom-move 2s ease forwards;
+}
+
+.B-middle-stroke {
+  stroke-dasharray: 50px;
+  stroke-dashoffset: 50px;
+  animation: B-middle-move 2s ease forwards;
+}
+
+.B-upper-curve {
+  stroke-dasharray: 80px;
+  stroke-dashoffset: 80px;
+  animation: B-upper-curve-move 2s ease forwards;
+}
+
+.B-lower-curve {
+  stroke-dasharray: 80px;
+  stroke-dashoffset: 80px;
+  animation: B-lower-curve-move 2s ease forwards;
+}
+
+@keyframes B-top-move {
+  0% {
+    stroke-dashoffset: 30px; /* Start with the dash offset equal to the length */
+  }
+  100% {
+    stroke-dashoffset: 0px; /* Transition to 0px */
+  }
+}
+
+@keyframes B-bottom-move {
+  0% {
+    stroke-dashoffset: 70px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes B-middle-move {
+  0% {
+    stroke-dashoffset: 50px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes B-upper-curve-move {
+  0% {
+    stroke-dashoffset: 80px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes B-lower-curve-move {
+  0% {
+    stroke-dashoffset: 80px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+/* D Animation */
+
+/* Vertical stroke animation */
+.D-vertical-stroke {
+  stroke-dasharray: 150px; /* Length of the vertical stroke path */
+  stroke-dashoffset: 150px;
+  animation: D-vertical-stroke-move 2s ease forwards;
+}
+
+@keyframes D-vertical-stroke-move {
+  0% {
+    stroke-dashoffset: 150px; /* Length of the vertical stroke path */
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.D-top-curve {
+  stroke-dasharray: 125px;
+  stroke-dashoffset: 125px;
+  animation: D-top-curve-animation 2s ease forwards;
+}
+
+.D-bottom-curve {
+  stroke-dasharray: 125px;
+  stroke-dashoffset: 125px;
+  animation: D-bottom-curve-animation 2s ease forwards;
+}
+
+@keyframes D-top-curve-animation {
+  from {
+    stroke-dashoffset: 125px; /* Adjust according to the length of the curve */
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes D-bottom-curve-animation {
+  from {
+    stroke-dashoffset: 125px; /* Adjust according to the length of the curve */
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Animation for the left diagonal stroke */
+.A-left-diagonal {
+  stroke-dasharray: 160px;
+  stroke-dashoffset: 160px;
+  animation: A-left-diagonal-move 2s ease forwards;
+}
+
+/* Animation for the right diagonal stroke */
+.A-right-diagonal {
+  stroke-dasharray: 160px;
+  stroke-dashoffset: 160px;
+  animation: A-right-diagonal-move 2s ease forwards;
+}
+
+/* Animation for the horizontal stroke */
+.A-horizontal {
+  stroke-dasharray: 46px;
+  stroke-dashoffset: 46px;
+  animation: A-horizontal-move 2s ease forwards;
+}
+
+@keyframes A-left-diagonal-move {
+  0% {
+    stroke-dashoffset: 160px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes A-right-diagonal-move {
+  0% {
+    stroke-dashoffset: 160px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes A-horizontal-move {
+  0% {
+    stroke-dashoffset: 46px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.U-left-vertical {
+  stroke-dasharray: 100px; /* Adjust according to the length of the stroke */
+  stroke-dashoffset: 100px; /* Start with the dash offset equal to the length */
+  animation: U-left-vertical-move 2s ease forwards;
+}
+
+.U-right-vertical {
+  stroke-dasharray: 100px; /* Adjust according to the length of the stroke */
+  stroke-dashoffset: 100px; /* Start with the dash offset equal to the length */
+  animation: U-right-vertical-move 2s ease forwards;
+}
+
+.U-bottom-curve {
+  stroke-dasharray: 100px; /* Adjust according to the length of the curve */
+  stroke-dashoffset: 100px; /* Start with the dash offset equal to the length */
+  animation: U-bottom-curve-move 2s ease forwards;
+}
+
+@keyframes U-left-vertical-move {
+  0% {
+    stroke-dashoffset: 100px; /* Start with the dash offset equal to the length */
+  }
+  100% {
+    stroke-dashoffset: 0px; /* Transition to 0px */
+  }
+}
+
+@keyframes U-right-vertical-move {
+  0% {
+    stroke-dashoffset: 100px; /* Start with the dash offset equal to the length */
+  }
+  100% {
+    stroke-dashoffset: 0px; /* Transition to 0px */
+  }
+}
+
+@keyframes U-bottom-curve-move {
+  0% {
+    stroke-dashoffset: 100px; /* Start with the dash offset equal to the length */
+  }
+  100% {
+    stroke-dashoffset: 0px; /* Transition to 0px */
   }
 }

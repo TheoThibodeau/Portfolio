@@ -5,7 +5,6 @@ function NavBar() {
     return(
         <div className='navBar'>
         <Navbar>
-            <h2 className="titleHeader" >Theodore Thibodeau</h2>
             <h3 className="aboutMe">
                 <a href="#about" style={{color: "blue"}}>About</a>
             </h3>

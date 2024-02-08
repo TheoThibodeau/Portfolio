@@ -1,6 +1,7 @@
 import NavBar from "./navbar";
 import { useState } from 'react';
 import TeddysBug from './images/Bug.png';
+import GiftFairy from './images/giftfairy.png';
 
 
 const Profile = () => {
@@ -12,8 +13,106 @@ const Profile = () => {
     }
 
     return(
-        <div className="mainContainer">
+    <div className="mainContainer">
             <NavBar />
+
+        <div class="hello-parent">
+            <svg class="theo-word" width="365" height="365" viewBox="0 0 365 100">
+                <g id="T-letter">
+                    <line class="T-vertical-stroke" x1="50" y1="20" x2="50" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="T-horizontal-stroke" x1="20" y1="20" x2="80" y2="20" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+                <g id="H-letter">
+                    <line class="H-left-stroke" x1="110" y1="20" x2="110" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="H-mid-stroke" x1="120" y1="70" x2="180" y2="70" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="H-right-stroke" x1="150" y1="20" x2="150" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+                <g id="E-letter">
+                    <line class="E-left-stroke" x1="190" y1="120" x2="190" y2="20" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="E-top-stroke" x1="190" y1="30" x2="270" y2="30" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="E-mid-stroke" x1="190" y1="70" x2="260" y2="70" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="E-bottom-stroke" x1="190" y1="110" x2="270" y2="110" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+                <g id="O-letter">
+                    <circle class="O-stroke" cx="300" cy="70" r="45" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="hello-parent">
+            <svg class="hello-word" width="365" height="465" viewBox="0 0 850 300">
+                <g id="T-letter">
+                    <line class="T-vertical-stroke" x1="50" y1="20" x2="50" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="T-horizontal-stroke" x1="20" y1="20" x2="80" y2="20" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+                <g id="H-letter">
+                    <line class="H-left-stroke" x1="110" y1="20" x2="110" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="H-mid-stroke" x1="120" y1="70" x2="180" y2="70" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="H-right-stroke" x1="150" y1="20" x2="150" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+                <g id="I-letter">
+                    <line class="I-top-stroke" x1="165" y1="30" x2="215" y2="30" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="I-vertical-stroke" x1="190" y1="20" x2="190" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="I-bottom-stroke" x1="165" y1="110" x2="215" y2="110" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+
+                <g id="B-letter">
+                    <line class="B-vertical-stroke" x1="260" y1="20" x2="260" y2="120" stroke="#000" fill="none" stroke-width="17" />
+                    <line class="B-middle-stroke" x1="280" y1="70" x2="260" y2="70" stroke="#000" fill="none" stroke-width="20" />
+                        <g id="O-letter">
+                        <circle class="O-stroke" cx="280" cy="45" r="18" stroke="#000" fill="none" stroke-width="15" />
+                        <circle class="O-stroke" cx="280" cy="95" r="18" stroke="#000" fill="none" stroke-width="15" />
+                        </g>
+                </g>
+
+                <g id="O-letter">
+                    <circle class="O-stroke" cx="370" cy="70" r="42" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+
+                <g id="D-letter" transform="translate(15, 0)">
+                    <line class="D-vertical-stroke" x1="435" y1="20" x2="435" y2="120" stroke="#000" fill="none" stroke-width="20" />
+                    <path class="D-top-curve" d="M435,30 Q485,20 485,80" stroke="#000" fill="none" stroke-width="20" />
+                    <path class="D-bottom-curve" d="M485,80 Q485,120 435,110" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+
+                <g id="E-letter" transform="translate(-5, 0)">
+                    <line class="E-left-stroke" x1="544" y1="120" x2="544" y2="20" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="E-top-stroke" x1="544" y1="30" x2="592" y2="30" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="E-mid-stroke" x1="544" y1="70" x2="586" y2="70" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="E-bottom-stroke" x1="544" y1="110" x2="592" y2="110" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+
+                <g id="A-letter" transform="translate(35, 0)">
+                    <line class="A-left-diagonal" x1="615" y1="25" x2="575" y2="115" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="A-right-diagonal" x1="615" y1="25" x2="659" y2="115" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="A-horizontal" x1="596" y1="70" x2="642" y2="70" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="A-left-horizontal" x1="565" y1="110" x2="590" y2="110" stroke="#000" fill="none" stroke-width="20" />
+                    <line class="A-right-horizontal" x1="669" y1="110" x2="634" y2="110" stroke="#000" fill="none" stroke-width="20" />
+                </g>
+
+                <g id="U-letter" transform="translate(640)">
+    <line class="U-left-vertical" x1="100" y1="20" x2="100" y2="100" stroke="#000" fill="none" stroke-width="20" />
+    <line class="U-right-vertical" x1="150" y1="20" x2="150" y2="100" stroke="#000" fill="none" stroke-width="20" />
+    <path class="U-bottom-curve" d="M100,120 Q120,160 150,100 Q180,40 200,100 Q230,160 250,120" stroke="#000" fill="none" stroke-width="20" />
+</g>
+
+
+
+
+
+            </svg>
+        </div>
+        {/* good start to the letter D */}
+        {/* <g id="B-letter">
+    <line class="B-top-stroke" x1="250" y1="20" x2="320" y2="20" stroke="#000" fill="none" stroke-width="20" />
+    <path class="B-upper-curve" d="M320,20 Q360,20 360,70" stroke="#000" fill="none" stroke-width="20" />
+    <line class="B-middle-stroke" x1="360" y1="70" x2="360" y2="120" stroke="#000" fill="none" stroke-width="20" />
+    <path class="B-lower-curve" d="M360,120 Q360,170 320,170" stroke="#000" fill="none" stroke-width="20" />
+    <line class="B-bottom-stroke" x1="250" y1="170" x2="320" y2="170" stroke="#000" fill="none" stroke-width="20" />
+</g> */}
+            <h1>
+                Theodore Thibodeau
+            </h1>
 
             <h1 id="about">
                 About
@@ -78,11 +177,12 @@ const Profile = () => {
                     <h3 className="giftfairyTitle">
                         GIFTFaiRY
                     </h3>
-                    <h4 className="giftfairyDescription">
+                    <p className="giftfairyDescription">
                         GIFTFaiRY🧚🏻 is your personal shopping assistant powered by artificial intelligence (OpenAI/ChatGPT 3.5). By asking you a series of tailored questions about the recipient, it harnesses the capabilities of AI to provided you with a curated list of ideal gift options!
-                    </h4>
-                    <img
-                    
+                    </p>
+                    <img className="giftFairyPic"
+                        src={GiftFairy}
+                        height={500}
                     >
                     </img>
                 </div>
