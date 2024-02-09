@@ -3,7 +3,15 @@ import { useState } from 'react';
 import TeddysBug from './images/Bug.png';
 import GiftFairy from './images/giftfairy.png';
 import Catalyst from './images/catalyst.jpg';
-import Momentors from './images/momentors.jpeg'
+import Momentors from './images/momentors.jpeg';
+import giftfairyRelationship from './images/giftfairyRelationship.png';
+import giftfairyOccasion from './images/giftfairyOccasion.png';
+import giftfairyGiftType from './images/giftfairyGiftType.png';
+import giftfairyInterests from './images/giftfairyInterests.png';
+import giftfairyActivity from './images/giftfairyActivity.png';
+import giftfairyLoad from './images/giftfairyLoad.png';
+import giftfairyIdeas from './images/giftfairyIdeas.png';
+import giftfairyAmazon from './images/giftfairyAmazon.png';
 
 
 const Profile = () => {
@@ -162,19 +170,38 @@ const Profile = () => {
             </h1>
             
             <div className="projectHolder">
-                <div className="giftfairyHolder">
-                    <h3 className="giftfairyTitle">
+                    <h1 className="giftfairyTitle">
                         GIFTFaiRY
-                    </h3>
+                    </h1>
                     <p className="giftfairyDescription">
                         GIFTFaiRY🧚🏻 is your personal shopping assistant powered by artificial intelligence (OpenAI/ChatGPT 3.5). By asking you a series of tailored questions about the recipient, it harnesses the capabilities of AI to provided you with a curated list of ideal gift options!
                     </p>
-                    <img className="giftFairyPic"
-                        src={GiftFairy}
-                        height={500}
-                    >
-                    </img>
+                <div className="giftfairyHolder">
+                    <div className="giftfairyHolder">
+                        <img className="giftFairyPic" src={GiftFairy} height={300} />
+                        <img className="giftFairyPic" src={giftfairyRelationship} height={300} />
+                        <img className="giftFairyPic" src={giftfairyOccasion} height={300} />
+                        <img className="giftFairyPic" src={giftfairyGiftType} height={300} />
+                        <img className="giftFairyPic" src={giftfairyInterests} height={300} />
+                        <img className="giftFairyPic" src={giftfairyActivity} height={300} />
+                        <img className="giftFairyPic" src={giftfairyLoad} height={300} />
+                        <img className="giftFairyPic" src={giftfairyIdeas} height={300} />
+                        <img className="giftFairyPic" src={giftfairyAmazon} height={300} />
+                    </div>
                 </div>
+
+                <div className="buttonContainer">
+                        <button>
+                        <a href="https://giftfairy.netlify.app/" className="button">
+                            Website
+                        </a>
+                        </button>
+                        <button>
+                        <a href="https://github.com/TheoThibodeau/Giftfairy_FE" className="button">
+                            GitHub Repo
+                        </a>
+                        </button>
+                    </div>
             </div>
 
             <div className="projectHolder">

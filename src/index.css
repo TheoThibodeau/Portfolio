@@ -47,6 +47,47 @@
   margin-right: 50px; /* Add space to the right of titleHeader */
 }
 
+/* Projects */
+.projectHolder {
+  border: 1px black;
+  margin:20px;
+  border-radius: 5px;
+  background-color: red;
+  display: flex;
+}
+
+.projectHolder {
+  border: 1px solid black; /* corrected typo from black; */
+  margin: 20px;
+  border-radius: 10px;
+  background-color: red;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.giftfairyDescription {
+  margin-bottom: 20px; /* Add space between description and buttons */
+}
+
+.giftFairyPic {
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 10px; /* Add space between buttons */
+}
+
+
 /* Arrow & Hover Animation */
 #more-arrows {
 	width: 35px;
@@ -92,7 +133,7 @@ html, body, .hello-parent {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: #fff; /* White background */
+  background: #ffffff; /* White background */
   background: -webkit-radial-gradient(#fff, #eaeaea); 
   background: -o-radial-gradient(#fff, #eaeaea); 
   background: -moz-radial-gradient(#fff, #eaeaea);
@@ -117,8 +158,6 @@ html, body, .hello-parent {
 
 .giftfairyTitle {
   margin: 0;
-  margin-right: 10px; 
-  margin-bottom: 50px;
 }
 
 .giftfairyDescription {
