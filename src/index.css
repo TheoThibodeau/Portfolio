@@ -5,6 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(47, 47, 47, 0.87);
+  background-color: rgb(245, 206, 159);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,7 +16,7 @@
 .mainContainer {
   text-align: left;
   padding-left: 0;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
 }
 
 .name {
@@ -52,7 +53,7 @@
   border: 1px solid black;
   margin:20px;
   border-radius: 10px;
-  background-color: red;
+  background-color: white;
   display: flex; /* Use flexbox */
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center children horizontally */
@@ -71,7 +72,7 @@
 
 .buttonContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -115,6 +116,46 @@ button {
 .card:first-child:hover,
 .card:first-child:focus-within {
   transform: translateY(-.5rem); /* Adjusted translateY for more emphasis */
+}
+
+/* Button CSS */
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.button-link {
+  text-decoration: none; /* Remove underline from links inside buttons */
+  color: inherit; /* Inherit the color from the button */
 }
 
 /* Arrow & Hover Animation */

@@ -212,14 +212,18 @@ const Profile = () => {
                 </div>
 
                 <div className="buttonContainer">
-                        <button>
-                        <a href="https://giftfairy.netlify.app/" className="button">
+                        <button class="button-42" role="button">
+                        <a 
+                        href="https://giftfairy.netlify.app/" 
+                        className="button-link">
                             Website
                         </a>
                         </button>
-                        <button>
-                        <a href="https://github.com/TheoThibodeau/Giftfairy_FE" className="button">
-                            GitHub Repo
+                        <button class="button-42" role="button">
+                        <a 
+                        href="https://github.com/TheoThibodeau/Giftfairy_FE" 
+                        className="button-link">
+                            GitHub
                         </a>
                         </button>
                     </div>
