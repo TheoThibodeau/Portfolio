@@ -49,16 +49,8 @@
 
 /* Projects */
 .projectHolder {
-  border: 1px black;
+  border: 1px solid black;
   margin:20px;
-  border-radius: 5px;
-  background-color: red;
-  display: flex;
-}
-
-.projectHolder {
-  border: 1px solid black; /* corrected typo from black; */
-  margin: 20px;
   border-radius: 10px;
   background-color: red;
   display: flex; /* Use flexbox */
@@ -87,14 +79,26 @@ button {
   margin-bottom: 10px; /* Add space between buttons */
 }
 
+/* giftfairy-carousel */
+.carousel {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  width: 100%;
+}
 
 /* Arrow & Hover Animation */
 #more-arrows {
 	width: 35px;
   height: 25px;
-  
   &:hover {
-    
     polygon {
       fill: #050241;
       transition: all .2s ease-out;
@@ -105,12 +109,9 @@ button {
 
       &.arrow-top {
         transform: translateY(18px);
-      }
-      
+      }    
     }
-  
   }
-  
 }
 
 polygon {

@@ -177,16 +177,23 @@ const Profile = () => {
                         GIFTFaiRY🧚🏻 is your personal shopping assistant powered by artificial intelligence (OpenAI/ChatGPT 3.5). By asking you a series of tailored questions about the recipient, it harnesses the capabilities of AI to provided you with a curated list of ideal gift options!
                     </p>
                 <div className="giftfairyHolder">
-                    <div className="giftfairyHolder">
-                        <img className="giftFairyPic" src={GiftFairy} height={300} />
-                        <img className="giftFairyPic" src={giftfairyRelationship} height={300} />
-                        <img className="giftFairyPic" src={giftfairyOccasion} height={300} />
+                    <div className="carousel">
+                        <div className="carousel-item">
+                            <img src={GiftFairy} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={giftfairyRelationship} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={giftfairyOccasion} height={300} />
+                        </div>
+{/* 
                         <img className="giftFairyPic" src={giftfairyGiftType} height={300} />
                         <img className="giftFairyPic" src={giftfairyInterests} height={300} />
                         <img className="giftFairyPic" src={giftfairyActivity} height={300} />
                         <img className="giftFairyPic" src={giftfairyLoad} height={300} />
                         <img className="giftFairyPic" src={giftfairyIdeas} height={300} />
-                        <img className="giftFairyPic" src={giftfairyAmazon} height={300} />
+                        <img className="giftFairyPic" src={giftfairyAmazon} height={300} /> */}
                     </div>
                 </div>
 
