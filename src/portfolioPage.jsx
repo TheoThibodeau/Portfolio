@@ -164,7 +164,6 @@ const Profile = () => {
             </a>
             </ul>
 
-
             <h1 id="projects">
                 Projects
             </h1>
@@ -187,13 +186,24 @@ const Profile = () => {
                         <div className="carousel-item">
                             <img src={giftfairyOccasion} height={300} />
                         </div>
-{/* 
-                        <img className="giftFairyPic" src={giftfairyGiftType} height={300} />
-                        <img className="giftFairyPic" src={giftfairyInterests} height={300} />
-                        <img className="giftFairyPic" src={giftfairyActivity} height={300} />
-                        <img className="giftFairyPic" src={giftfairyLoad} height={300} />
-                        <img className="giftFairyPic" src={giftfairyIdeas} height={300} />
-                        <img className="giftFairyPic" src={giftfairyAmazon} height={300} /> */}
+                        <div className="carousel-item">                        
+                            <img className="giftFairyPic" src={giftfairyGiftType} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="giftFairyPic" src={giftfairyInterests} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="giftFairyPic" src={giftfairyActivity} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="giftFairyPic" src={giftfairyLoad} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="giftFairyPic" src={giftfairyIdeas} height={300} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="giftFairyPic" src={giftfairyAmazon} height={300} />
+                        </div>
                     </div>
                 </div>
 

@@ -94,12 +94,24 @@ button {
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  .carousel-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  .carousel-item {
+    width: 33.33%;
+  }
+}
+
 /* Arrow & Hover Animation */
 #more-arrows {
 	width: 35px;
   height: 25px;
   &:hover {
-    polygon {
+    polygon { 
       fill: #050241;
       transition: all .2s ease-out;
 
