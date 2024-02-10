@@ -80,30 +80,41 @@ button {
 }
 
 /* giftfairy-carousel */
-.carousel {
+.cards {
   display: flex;
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-right: 100px;
 }
 
-.carousel-item {
-  flex: 0 0 auto;
-  margin-right: 20px;
-  scroll-snap-align: start;
-  width: 100%;
+.card {
+  min-width: 200px;
+  width: 200px; /* Adjusted width to initial size */
+  min-height: 200px; /* Adjusted height to initial size */
+  border-radius: 16px;
+  padding: 0rem; /* Adjusted padding */
+  transition: transform 0.3s; /* Only transition transform property */
+  --distance: -130px;
+  color: white;
 }
 
-@media (min-width: 600px) {
-  .carousel-item {
-    width: 50%;
-  }
+.card:not(:first-child) {
+  margin-left: var(--distance);
 }
 
-@media (min-width: 900px) {
-  .carousel-item {
-    width: 33.33%;
-  }
+.card:hover,
+.card:focus-within {
+  transform: translateY(-.5rem);
+}
+
+.card:hover ~ .card,
+.card:focus-within ~ .card {
+  transform: translateX(calc(var(--distance) * -1.2));
+}
+
+.card:first-child:hover,
+.card:first-child:focus-within {
+  transform: translateY(-.5rem); /* Adjusted translateY for more emphasis */
 }
 
 /* Arrow & Hover Animation */

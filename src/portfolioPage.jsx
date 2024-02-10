@@ -12,6 +12,7 @@ import giftfairyActivity from './images/giftfairyActivity.png';
 import giftfairyLoad from './images/giftfairyLoad.png';
 import giftfairyIdeas from './images/giftfairyIdeas.png';
 import giftfairyAmazon from './images/giftfairyAmazon.png';
+import profile from './images/profile.png';
 
 
 const Profile = () => {
@@ -176,35 +177,38 @@ const Profile = () => {
                         GIFTFaiRY🧚🏻 is your personal shopping assistant powered by artificial intelligence (OpenAI/ChatGPT 3.5). By asking you a series of tailored questions about the recipient, it harnesses the capabilities of AI to provided you with a curated list of ideal gift options!
                     </p>
                 <div className="giftfairyHolder">
-                    <div className="carousel">
-                        <div className="carousel-item">
-                            <img src={GiftFairy} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img src={giftfairyRelationship} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img src={giftfairyOccasion} height={300} />
-                        </div>
-                        <div className="carousel-item">                        
-                            <img className="giftFairyPic" src={giftfairyGiftType} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="giftFairyPic" src={giftfairyInterests} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="giftFairyPic" src={giftfairyActivity} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="giftFairyPic" src={giftfairyLoad} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="giftFairyPic" src={giftfairyIdeas} height={300} />
-                        </div>
-                        <div className="carousel-item">
-                            <img className="giftFairyPic" src={giftfairyAmazon} height={300} />
-                        </div>
+                <div className="cards">
+                    <div className="card">
+                        <img src={GiftFairy} height={400} />
                     </div>
+                    <div className="card">
+                        <img src={giftfairyRelationship} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyOccasion} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyGiftType} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyInterests} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyActivity} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyLoad} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyIdeas} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={giftfairyAmazon} height={400} />
+                    </div>
+                    <div className="card">
+                        <img src={profile} height={400} />
+                    </div>
+                </div>
                 </div>
 
                 <div className="buttonContainer">
