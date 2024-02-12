@@ -27,7 +27,7 @@ const Profile = () => {
     <div className="mainContainer">
             <NavBar />
 
-        <div class="hello-parent1">
+        {/* <div class="hello-parent1">
             <svg class="theo-word" width="365" height="365" viewBox="0 0 365 100">
                 <g id="T-letter">
                     <line class="T-vertical-stroke" x1="50" y1="20" x2="50" y2="120" stroke="#000" fill="none" stroke-width="20" />
@@ -107,7 +107,26 @@ const Profile = () => {
                     <path class="U-bottom-curve" d="M100,120 Q120,160 150,100 Q180,40 200,100 Q230,160 250,120" stroke="#000" fill="none" stroke-width="20" />
                 </g>
             </svg>
+        </div> */}
+
+{/* New name CSS */}
+        <div className="newName">
+            <svg viewBox="0 0 1160 300">
+                <symbol id="s-text">
+                <text textAnchor="middle" x="50%" y="40%">Theodore</text>
+                <br />
+                <text textAnchor="middle" x="50%" y="90%">Thibodeau</text>
+                </symbol>
+                <g className="g-ants">
+                <use xlinkHref="#s-text" className="text-copy"></use>
+                <use xlinkHref="#s-text" className="text-copy"></use>
+                <use xlinkHref="#s-text" className="text-copy"></use>
+                <use xlinkHref="#s-text" className="text-copy"></use>
+                <use xlinkHref="#s-text" className="text-copy"></use>
+                </g>
+            </svg>
         </div>
+        <br />
             <h1>
                 Theodore Thibodeau
             </h1>
@@ -136,9 +155,9 @@ const Profile = () => {
                 My first car was a 1968 Volkswagen Beetle that my Dad and I restored 
                 and I still enjoy working on it in my spare time! 
                 <svg id="more-arrows" viewBox="0 0 75 65" onClick={handleBugClick}>
-                    <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
-                    <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
-                    <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+                    <polygon className="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+                    <polygon className="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+                    <polygon className="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
                 </svg>
                 {selectedItem && (
                     <img 

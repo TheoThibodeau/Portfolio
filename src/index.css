@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgba(47, 47, 47, 0.87);
   background-color: rgb(245, 206, 159);
 
@@ -16,7 +18,7 @@
 .mainContainer {
   text-align: left;
   padding-left: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: #f5f0df;
 }
 
 .name {
@@ -27,18 +29,18 @@
   color: blue;
 }
 
-.navBar {
+/* .navBar {
   display: flex;
-  justify-content: space-between; /* Adjust as needed */
+  justify-content: space-between;
   align-items: center;
-  display: inline-block; /* Ensure they sit next to each other */
+  display: inline-block; 
 }
 
 .navBar {
   display: flex;
-  justify-content: space-between; /* Adjust as needed */
+  justify-content: space-between;
   align-items: center;
-}
+} */
 
 .titleHeader,
 .projects,
@@ -117,6 +119,15 @@ button {
 .card:first-child:focus-within {
   transform: translateY(-.5rem); /* Adjusted translateY for more emphasis */
 }
+
+.card:first-child {
+  margin-right: 160px; /* Adjust the margin to push the first card away */
+}
+
+.card:not(:first-child) {
+  margin-left: -130px; /* Adjusted margin for the rest of the cards */
+}
+
 
 /* Button CSS */
 .button-42 {
@@ -1009,4 +1020,139 @@ html, body, .hello-parent {
   100% {
     stroke-width: 44px;
   }
+}
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+.newName {
+  display: flex;
+/*   border:1px solid red; */
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    margin: 0 auto;
+    width: 1360px; /* Increased width */
+    height: 400px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #A7BEAE;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #B85042;
+	animation-delay: -1s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #5E716A;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #f36f51;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FFA500;
+	animation-delay: -4s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+/* NavBar CSS */
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navbar h3 {
+  font-size: 1.5em;
+  margin: 0 20px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.Navbar a:hover {
+  color: blue;
+}
+
+.Navbar svg {
+  display: block;
+  font: 10.5em 'Montserrat';
+  margin: 0 auto;
+  width: 1360px; /* Increased width */
+  height: 400px;
+}
+
+.Navbar .text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.Navbar .text-copy:nth-child(1){
+  stroke: #A7BEAE;
+  animation-delay: -1;
+}
+
+.Navbar .text-copy:nth-child(2){
+  stroke: #B85042;
+  animation-delay: -1s;
+}
+
+.Navbar .text-copy:nth-child(3){
+  stroke: #5E716A;
+  animation-delay: -2s;
+}
+
+.Navbar .text-copy:nth-child(4){
+  stroke: #f36f51;
+  animation-delay: -3s;
+}
+
+.Navbar .text-copy:nth-child(5){
+  stroke: #FFA500;
+  animation-delay: -4s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
 }
