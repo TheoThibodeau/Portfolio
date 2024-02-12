@@ -222,7 +222,7 @@ const Profile = () => {
                         <button class="button-42" role="button">
                         <a 
                         href="https://github.com/TheoThibodeau/Giftfairy_FE" 
-                        className="button-link">
+                        className="button-link"> 
                             GitHub
                         </a>
                         </button>
