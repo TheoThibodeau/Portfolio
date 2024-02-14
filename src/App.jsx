@@ -9,11 +9,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/profile" element={<Profile />}></Route>
-    </Routes> 
-    </BrowserRouter>
+    <Profile />
     </>
   )
 }
