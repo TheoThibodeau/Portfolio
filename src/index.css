@@ -36,8 +36,9 @@
   margin-right: 50px; /* Add space to the right of titleHeader */
 }
 
-.about {
+#about {
   margin-top: 100px;
+  color: #A7BEAE;
 }
 
 .aboutMe {
@@ -97,14 +98,80 @@
   padding: 20px; /* Add padding for better spacing */
 }
 
+#projects {
+  color: #B85042;
+}
+
 .giftfairyDescription {
   margin-bottom: 20px; /* Add space between description and buttons */
+  padding: 0 20px 0 40px;
 }
 
 .giftFairyPic {
   border-radius: 5px;
   margin-top: 25px;
   margin-bottom: 20px;
+}
+
+.giftfairyHolder {
+  display: flex;
+  align-items: center; 
+}
+
+.giftfairyTitle {
+  margin: 0;
+  color:#B85042;
+}
+
+.giftfairyDescription {
+  margin: 0;
+}
+
+.catalystHolder {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; 
+  margin-top: 10px;
+}
+
+.catalystTitle {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #B85042
+}
+
+.catalystDescription {
+  margin: 0;
+  margin-bottom: 10px; /* Adjust spacing between description and image */
+  padding: 0 20px 0 40px;
+}
+
+.catalystPic {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.momentorsHolder {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; 
+}
+
+.momentorsTitle {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #B85042;
+}
+
+.momentorsDescription {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0 20px 0 40px;
+}
+
+.momentorsPic {
+  border-radius: 5px;
+  margin-bottom: 10px; /* Adjust spacing between image and other elements */
 }
 
 .buttonContainer {
@@ -239,6 +306,159 @@ polygon {
 	 
 }
 
+/* Skills and Certs */
+
+#skills {
+  color: #5E716A;
+}
+
+/* Professional Experience */
+
+.experienceHolder {
+  margin:20px;
+  /* background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; */
+}
+
+#experience {
+  color: #f36f51;
+}
+
+.pantherHolder {
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Align text in the center */
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.panthersTitle {
+  margin: 0;
+  margin-bottom: 0px; /* Add space between title and image */
+  color: #f36f51;
+}
+
+.panthersJob {
+  display: flex;
+  align-items: center; /* Center children horizontally */
+}
+
+.panthersPic {
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+.panthersJob ul {
+  margin: 0;
+  padding-left: 20px; /* Adjust padding for list items */
+  text-align: left; /* Align list items to the left */
+}
+
+.recovery {
+  margin-bottom: -20px;
+}
+
+/* True REST Charlotte */
+
+.trueRestHolder {
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Align text in the center */
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.trueRestTitle {
+  margin: 0;
+  margin-bottom: 0px; /* Add space between title and image */
+  color: #f36f51;
+}
+
+.trueRestJob {
+  display: flex;
+  align-items: center; /* Center children horizontally */
+}
+
+.trueRestPic {
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+.trueRestJob ul {
+  margin: 0;
+  padding-left: 20px; /* Adjust padding for list items */
+  text-align: left; /* Align list items to the left */
+}
+
+.manager {
+  margin-bottom: 20px;
+}
+
+.partnerships img {
+  margin-right: 50px; /* Adjust the amount of space between logos */
+}
+
+/* Float Atlanta */
+
+.floatAtlantaHolder {
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Align text in the center */
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.floatAtlantaTitle {
+  margin: 0;
+  margin-bottom: 0px; /* Add space between title and image */
+  color: #f36f51;
+}
+
+.floatAtlantaJob {
+  display: flex;
+  align-items: center; /* Center children horizontally */
+}
+
+.floatAtlantaPic {
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+.floatAtlantaJob ul {
+  margin: 0;
+  padding-left: 20px; /* Adjust padding for list items */
+  text-align: left; /* Align list items to the left */
+}
+
+.managerFloatAtlanta {
+  margin-bottom: 20px;
+}
+
+.partnerships img {
+  margin-right: 50px; /* Adjust the amount of space between logos */
+}
+
 /* Welcome Page */
 
 html, body, .hello-parent {
@@ -263,51 +483,6 @@ html, body, .hello-parent {
   color: blue;
 }
 
-.giftfairyHolder {
-  display: flex;
-  align-items: center; 
-}
-
-.giftfairyTitle {
-  margin: 0;
-}
-
-.giftfairyDescription {
-  margin: 0;
-}
-
-.catalystHolder {
-  display: flex;
-  align-items: center; 
-  margin-top: 10px;
-}
-
-.catalystTitle {
-  margin: 0;
-  margin-right: 10px; 
-  margin-bottom: 50px;
-}
-
-.catalystDescription {
-  margin: 0;
-}
-
-.momentorsHolder {
-  display: flex;
-  align-items: center; 
-  margin-top: 10px;
-}
-
-.momentorsTitle {
-  margin: 0;
-  margin-right: 10px; 
-  margin-bottom: 50px;
-}
-
-.momentorsDescription {
-  margin: 0;
-}
-
 html, body{
   height: 100%;
   font-weight: 800;
@@ -320,6 +495,15 @@ body{
 }
 
 .newName {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.hello {
   display: flex;
   height: 100%;
   align-items: center;
@@ -373,4 +557,14 @@ svg {
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
+}
+
+/* Hello Fade In */
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
