@@ -312,6 +312,98 @@ polygon {
   color: #5E716A;
 }
 
+.educationHolder {
+  margin:20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.appHolder {
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Align text in the center */
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  height: 472px;
+  margin-right: 20px;
+}
+
+.appTitle {
+  margin: 0;
+  margin-bottom: 0px; /* Add space between title and image */
+  color: #f36f51;
+}
+
+.appJob {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.appPic {
+  margin-right: 20px;
+}
+
+.appJob ul {
+  margin: 0;
+  padding-left: 20px; /* Adjust padding for list items */
+  text-align: left; /* Align list items to the left */
+  margin-top: 30px;
+}
+
+
+.momentumHolder {
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Align text in the center */
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  margin-right: 20px;
+}
+
+.momentumTitle {
+  margin: 0;
+  margin-bottom: 0px; /* Add space between title and image */
+  color: #f36f51;
+}
+
+.momentumJob {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.momentumPic {
+  margin-right: 20px;
+}
+
+.momentumJob ul {
+  margin: 0;
+  padding-left: 20px; /* Adjust padding for list items */
+  text-align: left; /* Align list items to the left */
+  margin-top: 30px;
+}
+
+
 /* Professional Experience */
 
 .experienceHolder {
@@ -567,4 +659,26 @@ svg {
 .fade-out {
   opacity: 0;
   transition: opacity 1s ease;
+}
+
+.skillsAndCerts img {
+  margin-right: 30px;
+}
+
+/* Contact */
+
+#contact {
+  color:  #FFA500;
+  margin-bottom: -20px;
+}
+.contact a {
+  color: #FFA500;
+  text-decoration: none;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

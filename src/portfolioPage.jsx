@@ -17,6 +17,24 @@ import TrueRest from './images/truerestlogo.png';
 import CharlotteFC from './images/Charlotte_FC_logo.svg.png';
 import FloatAtlanta from './images/FloatAtlanta.png';
 import UNCC from './images/uncc.png';
+import Python from './images/python.png';
+import JavaScript from './images/javascript.png';
+import GitHub from './images/code.png';
+import Figma from './images/figma.png';
+import Trello from './images/trello.png';
+import SQL from './images/sql-server.png';
+import ReactIcon from './images/react.png';
+import PostGres from './images/postgresql.png';
+import JSON from './images/json-file.png';
+import HTML from './images/html.png';
+import FirebaseIcon from './images/firebase.png';
+import Django from './images/django.png';
+import CSS from './images/css.png';
+import Bootstrap from './images/bootstrap.png';
+import API from './images/api.png';
+import Momentum from './images/momentum.png';
+import AppState from './images/appstate.png';
+import Bug2 from './images/bug2.png';
 import profile from './images/profile.png';
 
 
@@ -114,11 +132,20 @@ const Profile = () => {
                         <polygon className="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
                     </svg>
                     {selectedItem && (
-                        <img 
-                        src={TeddysBug}
-                        height={400}
-                        width={400}
-                        ></img>
+                        <>
+                            <img 
+                            src={TeddysBug}
+                            height={400}
+                            width={450}
+                            style={{ marginRight: '30px' }}
+                            ></img>
+                            <img
+                            src={Bug2}
+                            height={400}
+                            width={700}
+                            >
+                            </img>
+                        </>
                     )}
             </li>
 
@@ -253,7 +280,141 @@ const Profile = () => {
             Skills and Certifications
         </h1>
         <div className="skillsAndCerts">
+            <img 
+            src={Python}
+            height={50}
+            title="Python"
+            ></img>   
+            <img 
+            src={JavaScript}
+            height={50}
+            title="JavaScript"
+            ></img>    
+            <img 
+            src={GitHub}
+            height={50}
+            title="GitHub="
+            ></img>  
+            <img 
+            src={Figma}
+            height={50}
+            title="Figma"
+            ></img> 
+            <img 
+            src={SQL}
+            height={50}
+            title="SQL"
+            ></img> 
+            <img 
+            src={ReactIcon}
+            height={50}
+            title="React"
+            ></img> 
+            <img 
+            src={PostGres}
+            height={50}
+            title="PostgreSQL"
+            ></img> 
+            <img 
+            src={JSON}
+            height={50}
+            title="JSON"
+            ></img> 
+            <img 
+            src={HTML}
+            height={50}
+            title="HTML"
+            ></img> 
+            <img 
+            src={FirebaseIcon}
+            height={50}
+            title="Firebase"
+            ></img> 
+            <img 
+            src={Django}
+            height={50}
+            title="Django"
+            ></img> 
+            <img 
+            src={Trello}
+            height={50}
+            title="Trello"
+            ></img> 
+            <img 
+            src={CSS}
+            height={50}
+            title="CSS"
+            ></img> 
+            <img 
+            src={Bootstrap}
+            height={50}
+            title="Bootstrap"
+            ></img> 
+            <img 
+            src={API}
+            height={50}
+            title="API Integration"
+            ></img>      
+        </div>
 
+        <div className="educationHolder">
+            <div className="appHolder">
+                    <h1 className="appTitle">
+                        Appalachian State University
+                    </h1>
+                    <h2 className="student">
+                        Student (2017)
+                    </h2>
+                <div className="appJob">
+                    <img 
+                    className="appPic"
+                    src={AppState}
+                    height={100}
+                    ></img>
+                    <ul>
+                        <li>
+                        Double Major in <i>Philosophy</i> & <i>Economics</i>
+                        </li>
+                        <br />
+                        <li>
+                        Minor in <i>History</i>
+                        </li>
+                        <br />
+                        <li>
+                        Concentrations in <i>Analytic Philosophy</i>, <i>Macro-Economics</i>, and <i>Eastern Roman History</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="momentumHolder">
+                    <h1 className="momentumTitle">
+                        Momentum Learning Bootcamp
+                    </h1>
+                    <h2 className="recovery">
+                        Software Engineering Student (2023)
+                    </h2>
+                <div className="momentumJob">
+                    <img 
+                    className="momentumPic"
+                    src={Momentum}
+                    height={100}
+                    ></img>
+                    <ul>
+                        <li>
+                        Accelerated Full-Stack Software Engineering Bootcamp
+                        </li>
+                        <br />
+                        <li>
+                        Created full-stack web applications using Python, Javascript, React, and Django
+                        </li>
+                        <br />
+                        <li>
+                        Gained full stack development fundamentals with an emphasis on front-end development using React
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <h1 id="experience">
@@ -361,6 +522,21 @@ const Profile = () => {
                 </div>
             </div>
         </div>
+
+        <h1 id="contact">
+            Contact
+        </h1>
+
+        <div className="contactInfo">
+            <h2 className="number">
+                Mobile: (910) 398-3961
+            </h2>
+            <h2 className="email">
+                teddythibodeau@gmail.com
+            </h2>
+        </div>
+
+
     </div>
     </>
     );

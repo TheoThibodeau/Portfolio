@@ -16,6 +16,9 @@ function NavBar() {
             <h2 className="experience">
                 <a href="#experience">Experience</a>
             </h2>
+            <h2 className="contact">
+                <a href="#contact">Contact</a>
+            </h2>
         </Navbar>
     );
 };
